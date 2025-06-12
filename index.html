@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <meta http-equiv="refresh" content="10" /> -->
     <title>Home Page</title>
+
+    <!-- external stylesheet  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- internal stylesheet  -->
     <style>
       .hello {
         background-color: aqua;
@@ -17,24 +22,47 @@
         border: 2px solid black;
         border-collapse: collapse;
       }
+      .test {
+        background-color: yellow;
+      }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    html headings
-    <h1>headings</h1>
-    <h2>heading</h2>
+    <div class="firstHeading">
+      html headings <i class="fa-solid fa-house" style="color: black"></i>
+    </div>
 
-    <h6>heading</h6>
+    <h1 class="test" id="new">test</h1>
+    <h2 class="test">heading</h2>
+
+    <h6 class="test">heading</h6>
 
     paragraph
 
     <p>this is a paragraph</p>
 
-    <p>
+    <p class="selecting">
       Lorem ipsum dolor sit amet consectetur , <br />
       adipisicing elit. Rerum officiis, repudiandae similique nostrum ,<br />
-      dignissimos reiciendis nobis delectus illum, ratione ad, quis accusantium
-      , <br />
+      dignissimos reiciendis nobis delectus illum, ratione ad, quis accusantiuml
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      corporis quo doloribus, vel nihil sapiente saepe quidem ad optio repellat
+      suscipit ex perferendis accusamus provident natus nisi voluptas labore,
+      magni ducimus eum! Doloremque id quas veniam ipsa quo sit dicta quae
+      eveniet explicabo numquam magni deleniti, reprehenderit autem libero
+      minus? Sint aspernatur temporibus ut enim, similique consequuntur
+      accusantium quaerat suscipit iusto rem assumenda vel in corrupti dolores
+      perferendis eum fugit molestias, eaque labore, nihil velit libero minus
+      distinctio. Placeat nisi beatae vitae doloribus, perspiciatis dignissimos,
+      quisquam, eveniet excepturi illo qui cumque. Doloribus nesciunt sint
+      quaerat ipsam sequi impedit enim qui? , <br />
       velit soluta maiores modi asperiores dolorem, esse? Vitae.
     </p>
 
@@ -48,16 +76,14 @@
     </pre>
 
     <!-- attributes = are the data that an element has -->
-    <h1 class="hello" id="hello" style="">this is a heading</h1>
 
     <!-- selectors -> class & id  -->
+    <h1 class="hello" id="hello" style="">this is a heading</h1>
 
     <!-- html styles  -->
     <h1 style="background-color: chocolate">Heading 1</h1>
     <h1 style="color: blue">Heading 2</h1>
-    <h1 style="text-align: center; font-weight: bold">
-      HTML Text Formatting 3
-    </h1>
+    <h1 style="background-color: pink">HTML Text Formatting 3</h1>
 
     <!-- html text formating -->
     <!-- to bold text => <b> tag & <strong> -->
@@ -203,5 +229,29 @@
       <input type="button" value="Submit" />
       <button type="button">Click Me</button>
     </form>
+
+    <div class="buttonContainer">
+      <p class="ButtonText">Click Me</p>
+    </div>
+    <button class="callToActionButton">Lets Get Started</button>
+
+    <div style="background-color: pink">
+      <!-- z-index is used to place things on front of or on back of things -->
+      <h1>Heading</h1>
+      <img
+        src="https://picsum.photos/1000"
+        class="bottom_img"
+        alt=""
+        srcset=""
+      />
+      <p style="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora
+        recusandae aliquid, itaque nobis distinctio omnis porro ipsam dolor
+        culpa ullam explicabo, aut, illum totam beatae voluptatem tempore?
+        Voluptatem iste exercitationem, cum expedita adipisci consequatur
+        necessitatibus ratione quos esse! Amet, facilis eligendi. Delectus,
+        architecto. Numquam maiores consequatur est debitis provident.
+      </p>
+    </div>
   </body>
 </html>

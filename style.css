@@ -1,0 +1,70 @@
+* {
+  /* background-color: green; */
+}
+
+.test {
+  background-color: pink;
+}
+
+#new {
+}
+
+h1,
+h2,
+h6 {
+  color: blueviolet;
+}
+
+/* CSS Backgrounds  */
+/* The CSS backgound properties are used to add background effects for elements  */
+
+.selecting {
+  /* background-color: aquamarine;
+  background-image: url(https://picsum.photos/200);
+  background-repeat: repeat-y; */
+  background: yellow url(https://picsum.photos/200) no-repeat;
+  line-height: 40px;
+}
+
+/* CSS Margins  */
+
+/* margin : top left bottom right  */
+/* p {
+  background-color: chartreuse;
+  margin: 100px;
+} */
+/* CSS Padding */
+/* p {
+  padding: 100px;
+} */
+.buttonContainer {
+  /* background-color: blue; */
+  /* width: 100px;
+  height: 100px; */
+}
+.ButtonText {
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+.callToActionButton {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* text decoration  */
+.firstHeading {
+  /* text-decoration: line-through; */
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  text-shadow: 1px 2px 5px red;
+}
+.bottom_img {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
