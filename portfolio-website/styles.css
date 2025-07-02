@@ -1,0 +1,103 @@
+.my-btn {
+  background-color: white;
+  color: #522ef2;
+}
+
+.navbar {
+  box-shadow: 0 5.33px 80px 0 rgba(0, 0, 0, 0.1);
+}
+.navigation-items .active {
+  color: #522ef2;
+}
+.navigation-items li {
+  font-weight: 400;
+}
+
+#hero-section {
+  padding-top: 50px;
+}
+.subtitle-text {
+  font-weight: 700;
+  font-size: 16px;
+}
+.heading-text {
+  font-size: 60px;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hero-section-text {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding-top: 60px;
+}
+.hero-btn {
+  background-color: #522ef2;
+  color: white;
+  border-color: #522ef2;
+  padding: 12px 30px;
+}
+.hero-btn:hover {
+  background-color: white;
+  color: #522ef2;
+  transition: all 0.3s ease-in;
+}
+
+.section-title {
+  font-weight: 700;
+}
+.skill-img {
+  background-color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(189, 189, 189);
+}
+.skill-card-header {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 18px;
+}
+.portfolio-headers {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-btn {
+  background-color: #b33791;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+}
+.portfolio-btn:hover {
+  background-color: white;
+  border: 1px solid #b33791;
+}
+.card-title {
+  font-weight: 700;
+}
+.portfolio-btn-2 {
+  text-decoration: none;
+  border-bottom: 1px solid #522ef2;
+}
+.card {
+  box-shadow: 1px 1px 10px rgb(189, 189, 189);
+}
+.port-btn-text:hover {
+  color: #522ef2;
+}
+.custom-input {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
+
+.custom-input:focus {
+  border-color: #6c3ef4;
+  box-shadow: 0 0 0 0.25rem rgba(108, 62, 244, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: #6c3ef4;
+  border-color: #6c3ef4;
+}
